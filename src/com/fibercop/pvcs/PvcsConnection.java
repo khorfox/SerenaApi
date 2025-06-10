@@ -25,7 +25,7 @@ public class PvcsConnection {
 		details.setDbConn("pcms");
 		details.setUsername(user);
 		details.setPassword(password);
-		details.setServer("pvcsnew.telecomitalia.local:1055");
+		details.setServer("pvcs.dominio.local:1055");
 		connection = DimensionsConnectionManager.getConnection(details);
 		return connection.getObjectFactory();
 	}

@@ -11,19 +11,19 @@ Pacchetto che si scarica da Tportal, alla voce utility, documentazione.
 
 Le librerie sono:
 
-	<classpathentry kind="lib" path="C:/ZZ-SoftwareFactory-0-Sviluppo/SERENA/serena/darius.jar"/>
-	<classpathentry kind="lib" path="C:/ZZ-SoftwareFactory-0-Sviluppo/SERENA/serena/dmclient.jar"/>
-	<classpathentry kind="lib" path="C:/ZZ-SoftwareFactory-0-Sviluppo/SERENA/serena/dmcore.jar"/>
-	<classpathentry kind="lib" path="C:/ZZ-SoftwareFactory-0-Sviluppo/SERENA/serena/dmfile.jar"/>
-	<classpathentry kind="lib" path="C:/ZZ-SoftwareFactory-0-Sviluppo/SERENA/serena/dmnet.jar"/>
-	<classpathentry kind="lib" path="C:/ZZ-SoftwareFactory-0-Sviluppo/SERENA/serena/dmzstd.jar"/>
-	<classpathentry kind="lib" path="C:/ZZ-SoftwareFactory-0-Sviluppo/SERENA/serena/slf4j-api-1.7.25.jar"/>
+	darius.jar
+	dmclient.jar
+	dmcore.jar
+	dmfile.jar
+	dmnet.jar
+	dmzstd.jar
+	slf4j-api-1.7.25.jar
 
 il progetto crea, a partire da un report delle schede, un csv contenete le associazioni e un file contenete i comandi da eseguire da client 
 
 il client si lancia con:
 
-dmcli -user TL001023 -pass pwd -host pvcsnew.telecomitalia.local:1055 -dbname UNICA -dsn pcms	
+dmcli -user user -pass pwd -host pvcs.server.local:1055 -dbname UNICA -dsn pcms	
 
 al prompt si esegue:
 

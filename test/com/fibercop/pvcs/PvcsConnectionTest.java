@@ -14,11 +14,11 @@ public class PvcsConnectionTest {
 		PvcsConnection connection = PvcsConnectionTest.getConnection();
 		DimensionsObjectFactory factory = connection.getFactory();
 		User user = factory.getCurrentUser();
-		assertEquals("TL001023",user.getName());
+		assertEquals("MIAMATRICOLA",user.getName());
 	}
 	
 	public final static PvcsConnection getConnection() {
-		return new PvcsConnection("TL001023","password","UNICA");
+		return new PvcsConnection("MIAMATRICOLA","password","UNICA");
 	}
 	
 
